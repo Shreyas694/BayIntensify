@@ -6,6 +6,16 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore these data files (Ocean and Climate)
+*.nc
+*.nc4
+*.grb
+*.grib
+*.hdf
+*.dat
+*.csv
+data/
+
 # Distribution / packaging
 .Python
 build/
